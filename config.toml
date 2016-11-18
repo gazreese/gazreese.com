@@ -101,6 +101,9 @@ disable404 = true
         title = "Interests"
 
         [[params.interests.list]]
+        interest = "Gigging with my Band"
+
+        [[params.interests.list]]
         interest = "Microlight Flying"
 
         [[params.interests.list]]
@@ -108,9 +111,6 @@ disable404 = true
 
         [[params.interests.list]]
         interest = "Hiking"
-
-        [[params.interests.list]]
-        interest = "Skiing"
 
 # Main body sections
 
@@ -142,19 +142,23 @@ disable404 = true
             - Software design, development and maintenance"""
 
         [[params.jobs.list]]
-        position = "Senior Software Engineer"
-        dates = "2014 - 2015"
-        company = "Google, London"
-        details = "**Describe your role here** lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem."
+        position = "Principal Software Engineer"
+        dates = "2002 - 2009"
+        company = "EMCC Software, Manchester"
+        details = """\
+        Sony ericsson new phone. """
         roles = """\
-        - Role 1\n\
-        - Role 2"""
+        - Software architecture and design\n\
+        - Development project oversight, design reviews and troubleshooting\n\
+        - Business development support producing proposals, estimates and liaising with the customer\n\
+        - On-site consultancy"""
 
         [[params.jobs.list]]
-        position = "UI Developer"
-        dates = "2012 - 2014"
-        company = "Amazon, London"
-        details = "**Describe your role here** lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem."
+        position = "Software Engineer"
+        dates = "2000 - 2002"
+        company = "National Computing Centre"
+        details = """\
+        Windows and UNIX development in C and TCL/TK, and working on customer sites to integrate the telecommunications testing software that we produced."""
 
     # Projects section
     [params.projects]
