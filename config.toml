@@ -76,7 +76,7 @@ disable404 = true
         [[params.education.list]]
         degree = "BSc in Computer Science"
         college = "University of Manchester"
-        dates = "2006 - 2010"
+        dates = "1997 - 2000"
 
     # Languages section
     [params.languages]
@@ -121,25 +121,34 @@ disable404 = true
         enable = true
         icon = "fa-user"
         title = "Career Profile"
-        summary = "**Summarise your career here** lorem ipsum dolor sit amet, consectetuer adipiscing elit. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu."
+        summary = "I’m an experienced **engineering manager**, **architect** and **consultant**, pleased to have had the opportunity to develop my skills in the ever-changing mobile and gaming environments.\n\nMore stuff here..."
 
     # Experiences section
     [params.experiences]
         enable = true
         icon = "fa-briefcase"
-        title = "Experiences"
+        title = "Experience"
 
         [[params.jobs.list]]
-        position = "Lead Developer"
-        dates = "2015 - Present"
-        company = "Startup Hubs, San Francisco"
-        details = "**Describe your role here** lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo.\n\n Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo."
+        position = "Head of Engineering"
+        dates = "2009 - Present"
+        company = "Electronic Arts Chillingo, Macclesfield"
+        details = "As Chillingo's first employee I helped it grow to become the one of the most successful smartphone game publishers in the world, producing titles such as Angry Birds, Cut the Rope and Micro Machines across all mobile platforms.\n\nInitially I architected and developed the Crystal social gaming platform across iOS and Android, which grew to over 30m users. Similar in features to platforms such as Scoreloop and OpenFeint, it included a dynamic news feed, editorial marketing, geographic leaderboards, inter-user challenges and a virtual goods and currencies system. The Crystal social gaming platform played a lead role in Chillingo’s acquisition by Electronic Arts in 2010, and post-acquisition my role has expanded considerably.\n\nTo address security and reliability concerns with our external developer partners I have established a Due Diligence consultancy process. This is a thorough and systematic review of the developer’s systems and processes covering areas such as hosting, scalability, security, reliability and data protection.\n\nMy time with EA and the ever-growing regulatory requirements of connected social systems has given me a broad understanding and respect for the legal challenges it faces. My team develop a legal SDK, which is included with all Chillingo and most EA Mobile titles. This SDK and back-end ensures the compliance of our titles against the various requirements around the world.\n\nMy team also develop cross promotional tools that take advantage of the Electronic Arts userbase to deliver video and in-game promotional content at scale."
+        roles = """\
+            - Day-to-day technical direction and management of multiple internal projects\n\
+            - Managing the legal compliance of Chillingo’s customer-facing systems and telemetry\n\
+            - Internal advice regarding technical game features and social network integration\n\ 
+            - Definition of technology strategy toward organisational goals\n\ 
+            - Software design, development and maintenance"""
 
         [[params.jobs.list]]
         position = "Senior Software Engineer"
         dates = "2014 - 2015"
         company = "Google, London"
         details = "**Describe your role here** lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem."
+        roles = """\
+        - Role 1\n\
+        - Role 2"""
 
         [[params.jobs.list]]
         position = "UI Developer"
