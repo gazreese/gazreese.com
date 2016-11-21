@@ -101,13 +101,13 @@ disable404 = true
         title = "Interests"
 
         [[params.interests.list]]
-        interest = "Gigging with my Band"
+        interest = "Gigging with my band"
 
         [[params.interests.list]]
-        interest = "Microlight Flying"
+        interest = "Microlight flying"
 
         [[params.interests.list]]
-        interest = "Mountain Biking"
+        interest = "Mountain biking"
 
         [[params.interests.list]]
         interest = "Hiking"
